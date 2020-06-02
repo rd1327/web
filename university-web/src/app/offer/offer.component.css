@@ -1,0 +1,60 @@
+.wrapper {
+  position: relative;
+}
+
+.fill-color {
+  height: 30vw;
+  position: relative;
+  background: #c8cdd2;
+}
+
+.wrapper > img {
+  position: absolute;
+  height: 30vw;
+  margin-top: -30vw;
+  right: 0;
+}
+
+.green {
+  color: #71a00c;
+  font-weight: 600;
+  font-size: 3.6vw;
+}
+
+.offer-text {
+  position: absolute;
+  top: 9vw;
+  left: 16vw;
+  font-size: 3.3vw;
+  font-weight: 100;
+}
+
+.arrow {
+  z-index: 10;
+}
+
+.arrow-left {
+  width: 1rem;
+  height: 1rem;
+  position: absolute;
+  z-index: 1;
+  top: 11vw;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 2vw;
+  border-radius: 2rem;
+  left: 6vw;
+  cursor: pointer;
+}
+
+.arrow-right {
+  width: 1rem;
+  height: 1rem;
+  position: absolute;
+  z-index: 1;
+  top: 11vw;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 2vw;
+  border-radius: 2rem;
+  right: 6vw;
+  cursor: pointer;
+}

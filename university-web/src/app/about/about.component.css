@@ -1,0 +1,61 @@
+.background {
+  width: 105vw;
+}
+
+.wrapper {
+  position: relative;
+  background: #f7f7f7;
+  height: 70vw;
+}
+
+.about-button {
+  height: 2.7rem;
+  width: 8.5rem;
+  border-radius: 8px;
+  border: 1px solid black;
+  background: transparent;
+  cursor: pointer;
+  font-size: larger;
+}
+
+.about-button {
+  color: #494949 !important;
+  text-decoration: none;
+  background: #ffffff;
+  border: 1px solid #494949 !important;
+  display: inline-block;
+  transition: all 0.4s ease 0s;
+}
+
+.about-button:hover {
+  color: #ffffff !important;
+  background: #f6b93b;
+  border-color: #f6b93b !important;
+  transition: all 0.4s ease 0s;
+}
+
+@media only screen and (max-width: 770px) {
+  .about-button {
+    height: 1.9rem;
+    width: 8rem;
+    font-size: smaller;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .about-button {
+    font-size: smaller;
+  }
+}
+
+.content {
+  position: absolute;
+  width: 40vw;
+  right: 10vw;
+  top: 5vw;
+}
+
+p {
+  font-size: 1.6vw;
+  margin: 2vw 0;
+}
